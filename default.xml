@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
-  <default revision="master"
+  <default revision="brillo-m7-dev"
            remote="aosp"
            sync-j="4" />
 
@@ -128,13 +128,12 @@
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk,bdk" />
   <project path="frameworks/native" name="platform/frameworks/native" groups="pdk,bdk" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk,bdk" />
-  <project path="hardware/bsp/kernel/common/android-3.18" name="kernel/common" revision="android-3.18" groups="bdk" />
-  <project path="hardware/bsp/kernel/common/v4.1" name="platform/hardware/bsp/kernel/common/v4.1" groups="bdk" />
+  <project path="hardware/bsp/kernel/common/android-3.18" name="kernel/common"  groups="bdk" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk,bdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk,bdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk,bdk" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" groups="pdk-fs,bdk" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="master" clone-depth="1" groups="pdk,linux,bdk" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="pdk,linux,bdk" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm,bdk" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm,bdk" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux,bdk" />
@@ -149,6 +148,7 @@
   <project path="prebuilts/ninja/linux-x86" name="platform/prebuilts/ninja/linux-x86" groups="linux,pdk,bdk" />
   <project path="prebuilts/ninja/darwin-x86" name="platform/prebuilts/ninja/darwin-x86" groups="darwin,pdk,bdk" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="bdk,linux,pdk,pdk-cw-fs,pdk-fs" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" clone-depth="1" groups="pdk,bdk" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,bdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools,bdk" />
   <project path="system/attestation" name="platform/system/attestation" groups="bdk" />
