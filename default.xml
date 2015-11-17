@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
-  <default revision="brillo-m7-dev"
+  <default revision="brillo-m7-mr-dev"
            remote="aosp"
            sync-j="4" />
 
