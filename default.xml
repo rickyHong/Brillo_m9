@@ -129,13 +129,13 @@
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="bdk" />
   <project path="frameworks/native" name="platform/frameworks/native" groups="bdk" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="bdk" />
-  <project path="hardware/bsp/kernel/common/android-3.18" name="kernel/common" />
+  <project path="hardware/bsp/kernel/common/android-3.18" name="kernel/common" groups="bdk" />
   <project path="hardware/bsp/kernel/common/v4.1" name="platform/hardware/bsp/kernel/common/v4.1" groups="bdk" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="bdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="bdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="bdk" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" groups="bdk" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="linux,bdk" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="linux,arm,bdk" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="linux,arm,bdk" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="linux,bdk" />
