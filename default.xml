@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
-  <default revision="master"
+  <default revision="brillo-m9-dev"
            remote="aosp"
            sync-j="4" />
 
@@ -132,13 +132,13 @@
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="bdk" />
   <project path="frameworks/native" name="platform/frameworks/native" groups="bdk" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="bdk" />
-  <project path="hardware/bsp/kernel/common/android-3.18" name="kernel/common" revision="android-3.18" groups="bdk" />
+  <project path="hardware/bsp/kernel/common/android-3.18" name="kernel/common" groups="bdk" />
   <project path="hardware/bsp/kernel/common/v4.1" name="platform/hardware/bsp/kernel/common/v4.1" groups="bdk" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="bdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="bdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="bdk" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" groups="bdk" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="master" clone-depth="1" groups="linux,bdk" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="linux,bdk" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="linux,arm,bdk" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="linux,arm,bdk" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="linux,bdk" />
@@ -183,7 +183,6 @@
            groups="edison" />
   <project path="hardware/bsp/kernel/intel/edison-3.10"
            name="platform/hardware/bsp/kernel/intel"
-           revision="edison-3.10"
            groups="edison" />
   <!-- Qualcomm Dragonboard -->
   <project path="device/qcom/dragonboard"
@@ -194,7 +193,6 @@
            groups="dragonboard" />
   <project path="hardware/bsp/kernel/qcom/qcom-msm-3.10"
            name="platform/hardware/bsp/kernel/qcom"
-           revision="qcom-msm-3.10"
            groups="dragonboard" />
   <!-- Marvell Abox -->
   <project path="device/marvell/abox_edge"
@@ -205,7 +203,6 @@
            groups="abox" />
   <project path="hardware/bsp/kernel/marvell/pxa-3.14"
            name="platform/hardware/bsp/kernel/marvell"
-           revision="pxa-3.14"
            groups="abox" />
   <!-- END starter boards -->
 </manifest>
